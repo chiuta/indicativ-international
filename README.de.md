@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Letzte Aktualisierung: 2026-11-13
 
+🌐 https://indicativ-international.chiuta.ro
+
 > Fragenkataloge für die Amateurfunkprüfung aller Länder in einem gemeinsamen Format.
 
 Trade-free: kein Tracking, keine Werbung, keine Konten, funktioniert offline.

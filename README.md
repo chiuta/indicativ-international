@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Last updated: 2026-11-13
 
+🌐 https://indicativ-international.chiuta.ro
+
 > Amateur-radio exam question banks for every country, in one shared format.
 
 Trade-free: no tracking, no ads, no accounts, works offline.

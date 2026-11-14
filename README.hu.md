@@ -4,6 +4,8 @@
 
 Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
 
+🌐 https://indicativ-international.chiuta.ro
+
 > Rádióamatőr-vizsgakérdések minden országból, közös formátumban.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.

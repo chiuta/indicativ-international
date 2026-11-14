@@ -4,6 +4,8 @@
 
 Versiune: 0.1.0 · Ultima actualizare: 2026-11-13
 
+🌐 https://indicativ-international.chiuta.ro
+
 > Bănci de întrebări pentru examenul de radioamator din fiecare țară, într-un format comun.
 
 Fără comerț (trade-free): fără urmărire, fără reclame, fără conturi, funcționează offline.

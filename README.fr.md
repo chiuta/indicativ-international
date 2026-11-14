@@ -4,6 +4,8 @@
 
 Version : 0.1.0 · Dernière mise à jour : 2026-11-13
 
+🌐 https://indicativ-international.chiuta.ro
+
 > Banques de questions de l'examen de radioamateur de chaque pays, dans un format commun.
 
 Trade-free : sans suivi, sans publicité, sans compte, fonctionne hors ligne.

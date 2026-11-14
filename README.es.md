@@ -4,6 +4,8 @@
 
 Versión: 0.1.0 · Última actualización: 2026-11-13
 
+🌐 https://indicativ-international.chiuta.ro
+
 > Bancos de preguntas del examen de radioaficionado de cada país, en un formato común.
 
 Trade-free: sin rastreo, sin anuncios, sin cuentas, funciona sin conexión.

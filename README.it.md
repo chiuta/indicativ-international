@@ -4,6 +4,8 @@
 
 Versione: 0.1.0 · Ultimo aggiornamento: 2026-11-13
 
+🌐 https://indicativ-international.chiuta.ro
+
 > Banche dati di domande per l'esame da radioamatore di ogni paese, in un formato comune.
 
 Trade-free: nessun tracciamento, nessuna pubblicità, nessun account, funziona offline.
