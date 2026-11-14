@@ -1,5 +1,7 @@
 # Good first issues
 
+**English** · [Română](ISSUES_GOOD_FIRST.ro.md) · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
+
 - [ ] Add a `syllabus_ref` field linking each question to a CEPT HAREC syllabus item
 - [ ] Add the CEPT HAREC syllabus as `syllabus.json` (topics list)
 - [ ] Add 30 questions for Hungary from the public question bank (with source link)
