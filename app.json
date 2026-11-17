@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "slug": "indicativ-international",
+  "name": "INDICATIV International — Amateur-radio exam question banks for every country, in one shared format",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "description": "Amateur-radio exam question banks for every country, in one shared format",
+  "egress": [],
+  "permissions": [
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "WebGL"
+  ],
+  "storageKeys": [
+    "indicativ-international.packs"
+  ],
+  "sizeBytes": 479274,
+  "sha256": "2d1ad19dd150c1b05c8251319e0cfd4678ee242ad6542f651b9c838c24cc19ca",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "script-src": "sha256×7",
+      "style-src": "sha256×3",
+      "img-src": "'self' data:",
+      "base-uri": "'none'",
+      "form-action": "'none'",
+      "manifest-src": "'self'",
+      "worker-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "'none'"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "kit": {
+    "version": "1.8.0",
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "selfSerializing": false
+}

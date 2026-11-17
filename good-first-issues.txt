@@ -1,10 +1,10 @@
-Add a `syllabus_ref` field linking each question to a CEPT HAREC syllabus item
-Add the CEPT HAREC syllabus as `syllabus.json` (topics list)
-Add 30 questions for Hungary from the public question bank (with source link)
-Add 30 questions for Italy from the public question bank
-Add 30 questions for Germany (Klasse E) from the public question bank
-Check that `correct` is within `answers` range (extend validate.py)
-Build the spaced-repetition trainer that loads any country pack
-Add formula/diagram support (SVG) to questions
-Add an exam simulator with timer and pass mark per country
-Document how to verify a question against the official bank
+Add a pack for Hungary from the public question bank (`scripts/import_csv.mjs`, official numbering in `id` and `source`, `source_url`, the exam rules with their source)
+Add a pack for Italy from the public question bank, with the same care (edition, source address, numbering, exam rules)
+Add a pack for Germany (class E or A) from the public question bank, with the same care
+Add a pack for your own country from its official question bank, in any language, and tell us what you checked
+Write a converter from the official file format of one country (PDF, spreadsheet or XML) to the CSV columns of `scripts/import_csv.mjs`
+Add the CEPT HAREC syllabus (Recommendation T/R 61-02) as the `syllabus` of a pack and link each question with `syllabus_ref`
+Have a radio amateur review the 50 built-in practice questions and report any wrong answer or unclear wording
+Redraw the circuit and antenna figures of a pack as restricted SVG, each with a `figure_alt` text alternative
+Test the exam simulator with a screen reader (NVDA, VoiceOver or Orca) and report what is hard to use
+Have a native speaker review the interface texts of your language in `src/i18n.mjs`

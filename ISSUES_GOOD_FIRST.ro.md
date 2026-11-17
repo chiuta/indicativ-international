@@ -2,15 +2,15 @@
 
 [English](ISSUES_GOOD_FIRST.md) · **Română** · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
 
-- [ ] Adaugă un câmp `syllabus_ref` care leagă fiecare întrebare de un punct din programa CEPT HAREC
-- [ ] Adaugă programa CEPT HAREC ca `syllabus.json` (lista de teme)
-- [ ] Adaugă 30 de întrebări pentru Ungaria din banca publică de întrebări (cu link la sursă)
-- [ ] Adaugă 30 de întrebări pentru Italia din banca publică de întrebări
-- [ ] Adaugă 30 de întrebări pentru Germania (Klasse E) din banca publică de întrebări
-- [ ] Verifică ca `correct` să se încadreze în intervalul `answers` (extinde validate.py)
-- [ ] Construiește antrenorul cu repetiție spațiată care încarcă orice pachet de țară
-- [ ] Adaugă suport pentru formule și diagrame (SVG) în întrebări
-- [ ] Adaugă un simulator de examen cu cronometru și prag de promovare pentru fiecare țară
-- [ ] Documentează cum se verifică o întrebare față de banca oficială
+- [ ] Adaugă un pachet pentru Ungaria din banca publică de întrebări (`scripts/import_csv.mjs`, numerotarea oficială în `id` și `source`, `source_url`, regulile de examen cu sursa lor)
+- [ ] Adaugă un pachet pentru Italia din banca publică de întrebări, cu aceeași grijă (ediție, adresa sursei, numerotare, reguli de examen)
+- [ ] Adaugă un pachet pentru Germania (clasa E sau A) din banca publică de întrebări, cu aceeași grijă
+- [ ] Adaugă un pachet pentru propria țară din banca ei oficială de întrebări, în orice limbă, și spune-ne ce ai verificat
+- [ ] Scrie un convertor din formatul oficial de fișier al unei țări (PDF, tabel sau XML) în coloanele CSV ale `scripts/import_csv.mjs`
+- [ ] Adaugă programa CEPT HAREC (Recomandarea T/R 61-02) ca `syllabus` al unui pachet și leagă fiecare întrebare cu `syllabus_ref`
+- [ ] Cere unui radioamator să revizuiască cele 50 de întrebări de exersare încorporate și să raporteze orice răspuns greșit sau formulare neclară
+- [ ] Redesenează figurile cu circuite și antene ale unui pachet ca SVG restrâns, fiecare cu un text alternativ în `figure_alt`
+- [ ] Testează simulatorul de examen cu un cititor de ecran (NVDA, VoiceOver sau Orca) și raportează ce este greu de folosit
+- [ ] Cere unui vorbitor nativ să revizuiască textele interfeței în limba lui din `src/i18n.mjs`
 
 Creează-le pe toate pe GitHub cu `scripts/create_issues.sh` (cere CLI-ul `gh`).

@@ -1,0 +1,797 @@
+{
+  "format": "indicativ-pack",
+  "version": 1,
+  "id": "zz-practice",
+  "title": "Practice questions (original, not an official bank)",
+  "country": "ZZ",
+  "licence_class": "practice",
+  "lang": "en",
+  "source": "Written for this project with an AI assistant; answers checked by calculation or against standard textbook facts. Not taken from any official question bank and not reviewed by an examiner.",
+  "license": "MIT",
+  "syllabus": [
+    {
+      "id": "1.1",
+      "title": "Circuits and Ohm’s law"
+    },
+    {
+      "id": "1.2",
+      "title": "Reactance, resonance, decibels and transformers"
+    },
+    {
+      "id": "2.1",
+      "title": "Radio waves and propagation"
+    },
+    {
+      "id": "3.1",
+      "title": "Antennas and feed lines"
+    },
+    {
+      "id": "4.1",
+      "title": "Transmitters and receivers"
+    },
+    {
+      "id": "5.1",
+      "title": "Operating practice"
+    },
+    {
+      "id": "6.1",
+      "title": "Safety and interference"
+    }
+  ],
+  "questions": [
+    {
+      "id": "ZZ-practice-0001",
+      "topic": "Electricity and circuits",
+      "question": "A 220 Ω resistor is connected across an 11 V battery. What current flows through it?",
+      "answers": [
+        "50 mA",
+        "5 mA",
+        "500 mA",
+        "2 A"
+      ],
+      "correct": 0,
+      "explanation": "I = V / R = 11 V / 220 Ω = 0.05 A = 50 mA.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.1"
+    },
+    {
+      "id": "ZZ-practice-0002",
+      "topic": "Electricity and circuits",
+      "question": "A transmitter draws 2 A from a 13.8 V supply. How much power does it take from the supply?",
+      "answers": [
+        "6.9 W",
+        "15.8 W",
+        "55.2 W",
+        "27.6 W"
+      ],
+      "correct": 3,
+      "explanation": "P = V × I = 13.8 V × 2 A = 27.6 W.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.1"
+    },
+    {
+      "id": "ZZ-practice-0003",
+      "topic": "Electricity and circuits",
+      "question": "Two resistors of 100 Ω and 150 Ω are connected in series. What is the total resistance?",
+      "answers": [
+        "60 Ω",
+        "125 Ω",
+        "250 Ω",
+        "15 000 Ω"
+      ],
+      "correct": 2,
+      "explanation": "In series the resistances add: 100 Ω + 150 Ω = 250 Ω. (60 Ω would be the value for the same two resistors in parallel.)",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.1"
+    },
+    {
+      "id": "ZZ-practice-0004",
+      "topic": "Electricity and circuits",
+      "question": "Two 100 Ω resistors are connected in parallel. What is the total resistance?",
+      "answers": [
+        "200 Ω",
+        "50 Ω",
+        "100 Ω",
+        "25 Ω"
+      ],
+      "correct": 1,
+      "explanation": "For two equal resistors in parallel the total is half of one of them: 100 Ω / 2 = 50 Ω.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.1"
+    },
+    {
+      "id": "ZZ-practice-0005",
+      "topic": "Electricity and circuits",
+      "question": "In the circuit shown, a 12 V supply is connected across R_{1} = 3 kΩ in series with R_{2} = 1 kΩ. What is the voltage across R_{2}?",
+      "answers": [
+        "9 V",
+        "3 V",
+        "4 V",
+        "12 V"
+      ],
+      "correct": 1,
+      "explanation": "The same current flows through both resistors: I = 12 V / 4 kΩ = 3 mA. The voltage across R_{2} is 3 mA × 1 kΩ = 3 V.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.1",
+      "figure": "<svg viewBox=\"0 0 200 90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><polyline points=\"20,38 20,20 50,20\"/><rect x=\"50\" y=\"12\" width=\"40\" height=\"16\"/><polyline points=\"90,20 110,20\"/><rect x=\"110\" y=\"12\" width=\"40\" height=\"16\"/><polyline points=\"150,20 180,20 180,70 20,70 20,46\"/><line x1=\"10\" y1=\"38\" x2=\"30\" y2=\"38\"/><line x1=\"15\" y1=\"46\" x2=\"25\" y2=\"46\"/><text x=\"32\" y=\"62\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">12 V</text><text x=\"70\" y=\"44\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">R1 = 3 kΩ</text><text x=\"130\" y=\"44\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">R2 = 1 kΩ</text></svg>",
+      "figure_alt": "Circuit diagram: a 12 V supply drives R1 (3 kΩ) in series with R2 (1 kΩ)."
+    },
+    {
+      "id": "ZZ-practice-0006",
+      "topic": "Electricity and circuits",
+      "question": "What is the approximate reactance of a 1 µF capacitor at 159 Hz?",
+      "answers": [
+        "About 1 kΩ",
+        "About 100 Ω",
+        "About 10 kΩ",
+        "About 1 Ω"
+      ],
+      "correct": 0,
+      "explanation": "X_{C} = 1 / (2πfC) = 1 / (2π × 159 Hz × 1 µF) ≈ 1 000 Ω.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.2"
+    },
+    {
+      "id": "ZZ-practice-0007",
+      "topic": "Electricity and circuits",
+      "question": "What is the resonant frequency of a circuit with L = 10 µH and C = 100 pF?",
+      "answers": [
+        "15.9 MHz",
+        "503 kHz",
+        "50.3 MHz",
+        "5.03 MHz"
+      ],
+      "correct": 3,
+      "explanation": "f_{0} = 1 / (2π√(LC)) = 1 / (2π × √(10×10^{-6} H × 100×10^{-12} F)) ≈ 5.03 MHz.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.2"
+    },
+    {
+      "id": "ZZ-practice-0008",
+      "topic": "Electricity and circuits",
+      "question": "A signal’s power rises from 1 W to 4 W. By how many decibels does it rise?",
+      "answers": [
+        "3 dB",
+        "12 dB",
+        "6 dB",
+        "4 dB"
+      ],
+      "correct": 2,
+      "explanation": "dB = 10 × log_{10}(P_{2} / P_{1}) = 10 × log_{10}(4) ≈ 6 dB.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.2"
+    },
+    {
+      "id": "ZZ-practice-0009",
+      "topic": "Electricity and circuits",
+      "question": "A cable attenuates a signal by 10 dB. What fraction of the power entering the cable reaches the other end?",
+      "answers": [
+        "90 %",
+        "1 %",
+        "10 %",
+        "50 %"
+      ],
+      "correct": 2,
+      "explanation": "−10 dB is a power ratio of 10^{-1} = 0.1, that is 10 %.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.2"
+    },
+    {
+      "id": "ZZ-practice-0010",
+      "topic": "Electricity and circuits",
+      "question": "A transformer has 200 turns on its primary and 20 turns on its secondary. 230 V is applied to the primary. What is the secondary voltage of an ideal transformer?",
+      "answers": [
+        "2 300 V",
+        "23 V",
+        "230 V",
+        "11.5 V"
+      ],
+      "correct": 1,
+      "explanation": "V_{s} = V_{p} × N_{s} / N_{p} = 230 V × 20 / 200 = 23 V.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.2"
+    },
+    {
+      "id": "ZZ-practice-0011",
+      "topic": "Electricity and circuits",
+      "question": "A 50 Ω dummy load dissipates 100 W. What is the RMS voltage across it?",
+      "answers": [
+        "70.7 V",
+        "100 V",
+        "35.4 V",
+        "141 V"
+      ],
+      "correct": 0,
+      "explanation": "P = V^{2} / R, so V = √(P × R) = √(100 W × 50 Ω) ≈ 70.7 V.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.1"
+    },
+    {
+      "id": "ZZ-practice-0012",
+      "topic": "Electricity and circuits",
+      "question": "Which component stores energy in a magnetic field?",
+      "answers": [
+        "A capacitor",
+        "A resistor",
+        "A diode",
+        "An inductor (coil)"
+      ],
+      "correct": 3,
+      "explanation": "A coil stores energy in its magnetic field; a capacitor stores energy in an electric field.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.2"
+    },
+    {
+      "id": "ZZ-practice-0013",
+      "topic": "Electricity and circuits",
+      "question": "A fixed resistor is connected to a battery. Which change would double the current through the resistor?",
+      "answers": [
+        "Doubling the resistance",
+        "Halving the voltage",
+        "Doubling both the voltage and the resistance",
+        "Doubling the voltage"
+      ],
+      "correct": 3,
+      "explanation": "I = V / R: doubling V doubles I, doubling R halves it, and doubling both leaves I unchanged.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "1.1"
+    },
+    {
+      "id": "ZZ-practice-0014",
+      "topic": "Propagation",
+      "question": "What is the wavelength of a 14.2 MHz signal, approximately?",
+      "answers": [
+        "2.1 m",
+        "210 m",
+        "21 m",
+        "42 m"
+      ],
+      "correct": 2,
+      "explanation": "λ = c / f ≈ 300 / 14.2 MHz ≈ 21 m.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "2.1"
+    },
+    {
+      "id": "ZZ-practice-0015",
+      "topic": "Propagation",
+      "question": "About what wavelength does a 145 MHz signal have?",
+      "answers": [
+        "About 20 m",
+        "About 2 m",
+        "About 0.2 m",
+        "About 70 cm"
+      ],
+      "correct": 1,
+      "explanation": "λ = c / f ≈ 300 / 145 MHz ≈ 2.07 m, which is why 144–146 MHz is called the 2 m band.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "2.1"
+    },
+    {
+      "id": "ZZ-practice-0016",
+      "topic": "Propagation",
+      "question": "Which ionospheric layer is the most important for long-distance (multi-hop) HF communication?",
+      "answers": [
+        "The F2 layer",
+        "The D layer",
+        "The troposphere",
+        "The E layer"
+      ],
+      "correct": 0,
+      "explanation": "The F2 layer is the highest and most strongly ionised region; it refracts HF signals back to earth over the longest distances.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "2.1"
+    },
+    {
+      "id": "ZZ-practice-0017",
+      "topic": "Propagation",
+      "question": "What does the D layer mainly do to HF signals during the day?",
+      "answers": [
+        "It absorbs them, mostly on the lowest HF bands",
+        "It reflects them over long distances",
+        "It amplifies weak signals",
+        "It has no effect on HF signals"
+      ],
+      "correct": 0,
+      "explanation": "The D layer exists only in daylight and absorbs low-frequency HF signals (for example 160 m and 80 m), which is why those bands work best at night.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "2.1"
+    },
+    {
+      "id": "ZZ-practice-0018",
+      "topic": "Propagation",
+      "question": "If the frequency of a radio wave is doubled, what happens to its wavelength?",
+      "answers": [
+        "It is doubled",
+        "It stays the same",
+        "It is quartered",
+        "It is halved"
+      ],
+      "correct": 3,
+      "explanation": "λ = c / f: the wavelength is inversely proportional to the frequency.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "2.1"
+    },
+    {
+      "id": "ZZ-practice-0019",
+      "topic": "Propagation",
+      "question": "Which kind of propagation is normally used for local VHF and UHF contacts?",
+      "answers": [
+        "Reflection from the F2 layer",
+        "Ground wave along the surface over hundreds of kilometres",
+        "Line-of-sight (direct) waves",
+        "Reflection from the D layer"
+      ],
+      "correct": 2,
+      "explanation": "VHF and UHF waves are not normally refracted back by the ionosphere; ordinary contacts rely on the direct path, slightly extended beyond the horizon.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "2.1"
+    },
+    {
+      "id": "ZZ-practice-0020",
+      "topic": "Propagation",
+      "question": "What is the “skip zone”?",
+      "answers": [
+        "The part of the ionosphere that absorbs signals",
+        "The area too far for the ground wave and too close for the sky wave to arrive",
+        "The area right below the antenna where the signal is strongest",
+        "The time of day when a band is closed"
+      ],
+      "correct": 1,
+      "explanation": "The ground wave dies out after a limited distance, and the sky wave comes back to earth only beyond a minimum distance: in between lies the skip zone.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "2.1"
+    },
+    {
+      "id": "ZZ-practice-0021",
+      "topic": "Antennas and feed lines",
+      "question": "Roughly how long is a half-wave wire dipole for 7.1 MHz, allowing for the usual end-effect shortening of about 5 %?",
+      "answers": [
+        "About 40 m",
+        "About 20 m",
+        "About 10 m",
+        "About 2 m"
+      ],
+      "correct": 1,
+      "explanation": "The free-space half wavelength is 300 / 7.1 / 2 ≈ 21.1 m; shortening it by about 5 % gives ≈ 20 m (the common rule L ≈ 143 / f in MHz gives 20.1 m).",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0022",
+      "topic": "Antennas and feed lines",
+      "question": "What is the approximate feed-point impedance of a half-wave dipole in free space?",
+      "answers": [
+        "About 73 Ω",
+        "About 300 Ω",
+        "About 36 Ω",
+        "About 600 Ω"
+      ],
+      "correct": 0,
+      "explanation": "A thin half-wave dipole in free space has a feed-point resistance of about 73 Ω; a folded dipole has about 300 Ω.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0023",
+      "topic": "Antennas and feed lines",
+      "question": "The forward power is 100 W and the reflected power is 4 W. What is the SWR?",
+      "answers": [
+        "2 : 1",
+        "1.2 : 1",
+        "4 : 1",
+        "1.5 : 1"
+      ],
+      "correct": 3,
+      "explanation": "Reflection coefficient ρ = √(P_{r} / P_{f}) = √(4 / 100) = 0.2; SWR = (1 + ρ) / (1 − ρ) = 1.2 / 0.8 = 1.5.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0024",
+      "topic": "Antennas and feed lines",
+      "question": "An antenna has a gain of 3 dBd. What is that gain in dBi?",
+      "answers": [
+        "0.85 dBi",
+        "3 dBi",
+        "5.15 dBi",
+        "6 dBi"
+      ],
+      "correct": 2,
+      "explanation": "The gain of a half-wave dipole over an isotropic radiator is 2.15 dB, so dBi = dBd + 2.15.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0025",
+      "topic": "Antennas and feed lines",
+      "question": "A transmitter delivers 10 W through a lossless feed line to an antenna with 3 dBd gain. What is the ERP (relative to a dipole)?",
+      "answers": [
+        "About 30 W",
+        "About 13 W",
+        "About 20 W",
+        "About 5 W"
+      ],
+      "correct": 2,
+      "explanation": "+3 dB is a factor of about 2 in power: 10 W × 2 ≈ 20 W.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0026",
+      "topic": "Antennas and feed lines",
+      "question": "What does a balun do?",
+      "answers": [
+        "It increases the transmitter output power",
+        "It connects a balanced antenna to an unbalanced feed line, or the reverse",
+        "It filters out harmonics",
+        "It measures standing waves"
+      ],
+      "correct": 1,
+      "explanation": "A balun (balanced–unbalanced transformer) matches a balanced antenna such as a dipole to an unbalanced coaxial cable.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0027",
+      "topic": "Antennas and feed lines",
+      "question": "Which characteristic impedance is the most common for coaxial cable in amateur stations?",
+      "answers": [
+        "50 Ω",
+        "75 Ω",
+        "300 Ω",
+        "600 Ω"
+      ],
+      "correct": 0,
+      "explanation": "Most amateur transmitters and antennas are designed for 50 Ω; 75 Ω coax is mainly used for television and cable systems.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0028",
+      "topic": "Antennas and feed lines",
+      "question": "The wire antenna in the figure is fed in the middle, and each half is a quarter of a wavelength long. What is it called?",
+      "answers": [
+        "A quarter-wave ground plane",
+        "A Yagi antenna",
+        "A loop antenna",
+        "A half-wave dipole"
+      ],
+      "correct": 3,
+      "explanation": "Two quarter-wave arms fed at the centre make a half-wave dipole.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1",
+      "figure": "<svg viewBox=\"0 0 200 90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><line x1=\"10\" y1=\"30\" x2=\"97\" y2=\"30\"/><line x1=\"103\" y1=\"30\" x2=\"190\" y2=\"30\"/><line x1=\"97\" y1=\"30\" x2=\"97\" y2=\"80\"/><line x1=\"103\" y1=\"30\" x2=\"103\" y2=\"80\"/><text x=\"53\" y=\"20\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">λ/4</text><text x=\"147\" y=\"20\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">λ/4</text><text x=\"113\" y=\"60\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">feed line</text></svg>",
+      "figure_alt": "Two horizontal wires of equal length, each labelled a quarter wavelength, joined in the middle to a two-wire feed line going down."
+    },
+    {
+      "id": "ZZ-practice-0029",
+      "topic": "Antennas and feed lines",
+      "question": "Which of these antennas has the greatest gain in one direction?",
+      "answers": [
+        "A vertical quarter-wave antenna",
+        "A half-wave dipole",
+        "An isotropic radiator",
+        "A multi-element Yagi antenna"
+      ],
+      "correct": 3,
+      "explanation": "Adding a reflector and directors concentrates the radiation in one direction; the other choices have less gain, and an isotropic radiator is the 0 dBi reference.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "3.1"
+    },
+    {
+      "id": "ZZ-practice-0030",
+      "topic": "Transmitters and receivers",
+      "question": "Which of these ways of sending speech needs the narrowest bandwidth?",
+      "answers": [
+        "Narrow-band FM",
+        "AM with two sidebands",
+        "Single sideband (SSB)",
+        "Wide-band FM"
+      ],
+      "correct": 2,
+      "explanation": "An SSB voice signal occupies about 2.4 kHz, an AM signal about 6 kHz, narrow-band FM roughly 10–15 kHz and broadcast FM about 180 kHz.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "4.1"
+    },
+    {
+      "id": "ZZ-practice-0031",
+      "topic": "Transmitters and receivers",
+      "question": "What is the purpose of a low-pass filter at the output of an HF transmitter?",
+      "answers": [
+        "To increase the output power",
+        "To attenuate harmonics and other emissions above the operating frequency",
+        "To remove low-frequency audio",
+        "To improve the receiver’s sensitivity"
+      ],
+      "correct": 1,
+      "explanation": "The filter lets the wanted frequency through and weakens harmonics, which could otherwise interfere with other services.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "4.1"
+    },
+    {
+      "id": "ZZ-practice-0032",
+      "topic": "Transmitters and receivers",
+      "question": "What is the selectivity of a receiver?",
+      "answers": [
+        "Its ability to separate the wanted signal from signals on nearby frequencies",
+        "Its ability to hear very weak signals",
+        "Its audio output power",
+        "Its speed of tuning across a band"
+      ],
+      "correct": 0,
+      "explanation": "Selectivity is about rejecting neighbours; the ability to receive weak signals is called sensitivity.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "4.1"
+    },
+    {
+      "id": "ZZ-practice-0033",
+      "topic": "Transmitters and receivers",
+      "question": "What is the second harmonic of a 7.1 MHz transmission?",
+      "answers": [
+        "14.2 MHz",
+        "3.55 MHz",
+        "21.3 MHz",
+        "10.65 MHz"
+      ],
+      "correct": 0,
+      "explanation": "The n-th harmonic is n × f: 2 × 7.1 MHz = 14.2 MHz (the third would be 21.3 MHz).",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "4.1"
+    },
+    {
+      "id": "ZZ-practice-0034",
+      "topic": "Transmitters and receivers",
+      "question": "In a superheterodyne receiver, which stage converts the incoming signal to the intermediate frequency?",
+      "answers": [
+        "The audio amplifier",
+        "The detector",
+        "The squelch circuit",
+        "The mixer"
+      ],
+      "correct": 3,
+      "explanation": "The mixer combines the signal with the local oscillator; the difference frequency is the intermediate frequency (IF).",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "4.1"
+    },
+    {
+      "id": "ZZ-practice-0035",
+      "topic": "Transmitters and receivers",
+      "question": "What is the main job of automatic gain control (AGC) in a receiver?",
+      "answers": [
+        "To increase the transmitter power",
+        "To filter out noise pulses",
+        "To keep the output level nearly constant as the signal strength changes",
+        "To tune the receiver automatically"
+      ],
+      "correct": 2,
+      "explanation": "AGC reduces the gain for strong signals and raises it for weak ones, so the loudness stays steady.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "4.1"
+    },
+    {
+      "id": "ZZ-practice-0036",
+      "topic": "Transmitters and receivers",
+      "question": "How is a CW (Morse code) signal produced?",
+      "answers": [
+        "By varying the carrier frequency with speech",
+        "By switching (keying) a carrier on and off",
+        "By suppressing the carrier and sending one sideband",
+        "By changing the polarisation of the carrier"
+      ],
+      "correct": 1,
+      "explanation": "CW is on–off keying of an unmodulated carrier in the pattern of the Morse code.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "4.1"
+    },
+    {
+      "id": "ZZ-practice-0037",
+      "topic": "Operating practice",
+      "question": "Which word stands for the letter K in the international spelling alphabet?",
+      "answers": [
+        "King",
+        "Kilo",
+        "Kansas",
+        "Kelvin"
+      ],
+      "correct": 1,
+      "explanation": "ICAO/NATO spelling alphabet: … Juliet, Kilo, Lima …",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0038",
+      "topic": "Operating practice",
+      "question": "What does the Q-code QTH refer to?",
+      "answers": [
+        "The location of the station",
+        "The operating frequency",
+        "Interference from other stations",
+        "The transmitter power"
+      ],
+      "correct": 0,
+      "explanation": "QTH = location. (QRG = frequency, QRM = interference from other stations, QRP = low power.)",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0039",
+      "topic": "Operating practice",
+      "question": "What does the Q-code QRM mean?",
+      "answers": [
+        "Natural noise such as static",
+        "Reduce your power",
+        "Change your frequency",
+        "Interference from other stations (man-made)"
+      ],
+      "correct": 3,
+      "explanation": "QRM = man-made interference; QRN = natural noise; QRP = reduce power; QSY = change frequency.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0040",
+      "topic": "Operating practice",
+      "question": "What does the Q-code QSY mean?",
+      "answers": [
+        "Increase your power",
+        "Repeat your message",
+        "Change to another frequency",
+        "Stand by"
+      ],
+      "correct": 2,
+      "explanation": "QSY = “change to another frequency”.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0041",
+      "topic": "Operating practice",
+      "question": "What does an RS report of 59 tell the other station?",
+      "answers": [
+        "Barely readable, weak signal",
+        "Readable with difficulty, moderate strength",
+        "Perfectly readable, very strong signal",
+        "Perfect tone, good quality"
+      ],
+      "correct": 2,
+      "explanation": "R5 means perfectly readable and S9 a very strong signal (“five nine”).",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0042",
+      "topic": "Operating practice",
+      "question": "What is the meaning of the call “CQ”?",
+      "answers": [
+        "I am about to close down",
+        "A general call to any station that hears it",
+        "Please repeat your last message",
+        "I have an emergency"
+      ],
+      "correct": 1,
+      "explanation": "CQ invites any station to reply; “CQ CQ CQ de” followed by the call sign is the usual form.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0043",
+      "topic": "Operating practice",
+      "question": "What does “73” mean in amateur radio?",
+      "answers": [
+        "Best regards",
+        "Love and kisses",
+        "Good luck",
+        "Good night"
+      ],
+      "correct": 0,
+      "explanation": "73 = best regards (88 = love and kisses).",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0044",
+      "topic": "Operating practice",
+      "question": "In Morse operating, which prosign normally means “end of contact”?",
+      "answers": [
+        "K",
+        "BK",
+        "R",
+        "SK"
+      ],
+      "correct": 3,
+      "explanation": "SK ends a contact; K = go ahead, BK = break, R = received.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "5.1"
+    },
+    {
+      "id": "ZZ-practice-0045",
+      "topic": "Safety and interference",
+      "question": "What is the first thing to do before opening a mains-powered power supply for repair?",
+      "answers": [
+        "Switch it on to find the fault",
+        "Touch the case to check for voltage",
+        "Short-circuit the output",
+        "Disconnect it from the mains and let the capacitors discharge"
+      ],
+      "correct": 3,
+      "explanation": "Mains voltage can be lethal, and large capacitors can stay charged after switching off.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "6.1"
+    },
+    {
+      "id": "ZZ-practice-0046",
+      "topic": "Safety and interference",
+      "question": "What is the most serious danger of putting a wire antenna near overhead power lines?",
+      "answers": [
+        "Power lines absorb radio waves",
+        "The antenna would radiate less power",
+        "If it falls or touches a line, it can carry a lethal voltage",
+        "The mains would be interrupted every time you transmit"
+      ],
+      "correct": 2,
+      "explanation": "A falling antenna or a contact with a line puts mains voltage on the wire and on the person touching it.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "6.1"
+    },
+    {
+      "id": "ZZ-practice-0047",
+      "topic": "Safety and interference",
+      "question": "What is the safest course when a thunderstorm approaches and you have an outdoor antenna?",
+      "answers": [
+        "Transmit with extra power to discharge it",
+        "Disconnect the antenna from the equipment and stay away from it",
+        "Touch the coax shield to check for static",
+        "Stand next to the mast to protect it"
+      ],
+      "correct": 1,
+      "explanation": "Lightning can travel down the feed line; disconnected cables and distance reduce the risk to people and equipment.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "6.1"
+    },
+    {
+      "id": "ZZ-practice-0048",
+      "topic": "Safety and interference",
+      "question": "If you double your distance from a transmitting antenna (in the far field), what happens to the power density?",
+      "answers": [
+        "It falls to one quarter",
+        "It falls to one half",
+        "It stays the same",
+        "It falls to one eighth"
+      ],
+      "correct": 0,
+      "explanation": "Power density follows the inverse-square law: 1 / 2^{2} = 1/4.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "6.1"
+    },
+    {
+      "id": "ZZ-practice-0049",
+      "topic": "Safety and interference",
+      "question": "A transmitter’s harmonics disturb television reception. Which filter fitted at the transmitter output helps?",
+      "answers": [
+        "A low-pass filter",
+        "A high-pass filter",
+        "An audio-frequency filter",
+        "A mains filter only"
+      ],
+      "correct": 0,
+      "explanation": "The harmonics lie above the operating frequency, so a low-pass filter weakens them.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "6.1"
+    },
+    {
+      "id": "ZZ-practice-0050",
+      "topic": "Safety and interference",
+      "question": "Which measure keeps a metal equipment case from staying live if an internal mains wire touches it?",
+      "answers": [
+        "A bigger power switch",
+        "A plastic knob on the case",
+        "A longer mains cable",
+        "A protective earth connection together with a fuse or residual-current device"
+      ],
+      "correct": 3,
+      "explanation": "The earth connection lets a fault current flow, and the fuse or RCD then cuts the supply.",
+      "source": "Original question written for this project (not from an official bank)",
+      "syllabus_ref": "6.1"
+    }
+  ]
+}

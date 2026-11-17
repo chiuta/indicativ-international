@@ -1,0 +1,16 @@
+{
+  "name": "indicativ-international",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Amateur-radio exam question banks for every country in one shared format, with a spaced-repetition trainer and an exam simulator.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && python3 scripts/validate.py"
+  }
+}

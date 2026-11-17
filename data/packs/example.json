@@ -1,0 +1,40 @@
+{
+  "format": "indicativ-pack",
+  "version": 1,
+  "id": "zz-example",
+  "title": "Example pack (replace with your own)",
+  "country": "ZZ",
+  "licence_class": "example",
+  "lang": "en",
+  "source": "example entry",
+  "license": "MIT",
+  "questions": [
+    {
+      "id": "ZZ-example-0001",
+      "topic": "Electricity",
+      "question": "What is the SI unit of frequency?",
+      "answers": [
+        "Hertz",
+        "Watt",
+        "Volt",
+        "Ohm"
+      ],
+      "correct": 0,
+      "explanation": "One hertz is one cycle per second.",
+      "source": "example entry"
+    },
+    {
+      "id": "ZZ-example-0002",
+      "topic": "Electricity",
+      "question": "What does the formula P = V × I give?",
+      "answers": [
+        "Power in watts",
+        "Resistance in ohms",
+        "Charge in coulombs"
+      ],
+      "correct": 0,
+      "explanation": "Power is voltage times current.",
+      "source": "example entry"
+    }
+  ]
+}
