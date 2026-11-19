@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · [Română](CONTRIBUTING.ro.md) · **Français** · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · [Deutsch](CONTRIBUTING.de.md) · [Magyar](CONTRIBUTING.hu.md)
 
-Version : 0.2.0 · Dernière mise à jour : 2026-11-17
+Version : 0.2.1 · Dernière mise à jour : 2026-11-20
 
 1. Faites un fork de ce dépôt.
 2. Copiez `data/packs/example.json` vers `data/packs/<id-de-votre-paquet>.json` (le nom du fichier est l’identifiant du paquet) et remplissez-le, ou transformez un tableau en paquet avec `node scripts/import_csv.mjs` (voir `docs/contributor-guide.md`).

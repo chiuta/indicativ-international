@@ -1,6 +1,6 @@
 # Verifying a pack against the official bank · INDICATIV International
 
-Version: 0.2.0 · Last updated: 2026-11-17 · [Română](verify-against-official-bank.ro.md)
+Version: 0.2.1 · Last updated: 2026-11-20 · [Română](verify-against-official-bank.ro.md)
 
 A trainer is only as good as its answer key. This guide says how to check a pack against the official question bank and how to write down what was checked, so that a reader can decide how far to trust it. “Verified” here means that a named person compared the pack with a named edition of the bank in the way described; no tool decides that for you, and the page cannot tell whether a pack is faithful.
 

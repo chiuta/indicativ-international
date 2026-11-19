@@ -1,6 +1,6 @@
 # Verificarea unui pachet față de banca oficială · INDICATIV International
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17 · [English](verify-against-official-bank.md)
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20 · [English](verify-against-official-bank.md)
 
 Un antrenor este la fel de bun ca cheia lui de răspunsuri. Ghidul spune cum verifici un pachet față de banca oficială de întrebări și cum notezi ce ai verificat, ca un cititor să poată hotărî cât de mult are încredere în el. «Verificat» înseamnă aici că o persoană numită a comparat pachetul cu o ediție numită a băncii în modul descris; niciun instrument nu hotărăște asta în locul tău, iar pagina nu poate spune dacă un pachet este fidel.
 

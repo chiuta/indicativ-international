@@ -1,6 +1,6 @@
 # Formatul pachetelor · INDICATIV International
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17 · [English](pack-format.md)
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20 · [English](pack-format.md)
 
 Un **pachet** este un fișier JSON UTF-8 cu întrebările de examen ale unei țări și ale unei clase de autorizare (sau un set de exersare). Pagina (fila «Pachete» → «Importă»), `scripts/validate.py` și `scripts/import_csv.mjs` aplică aceleași reguli; `schema.json` descrie forma. Un fișier este primit doar dacă toate regulile de mai jos sunt respectate; pagina și validatorul numesc fiecare problemă și locul ei.
 

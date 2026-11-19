@@ -1,6 +1,6 @@
 # Contributor guide · INDICATIV International
 
-Version: 0.2.0 · Last updated: 2026-11-17 · [Română](contributor-guide.ro.md)
+Version: 0.2.1 · Last updated: 2026-11-20 · [Română](contributor-guide.ro.md)
 
 The most useful contribution is a **pack**: the questions of a country’s public question bank for amateur-radio licences, in the shared format (`docs/pack-format.md`), with the source, the edition and the exam rules written down and checked against the official bank. You do not need to program to add one.
 

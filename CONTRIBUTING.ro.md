@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · **Română** · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · [Deutsch](CONTRIBUTING.de.md) · [Magyar](CONTRIBUTING.hu.md)
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20
 
 1. Fă un fork al acestui depozit.
 2. Copiază `data/packs/example.json` în `data/packs/<id-ul-pachetului>.json` (numele fișierului este id-ul pachetului) și completează-l, sau transformă un tabel într-un pachet cu `node scripts/import_csv.mjs` (vezi `docs/contributor-guide.ro.md`).

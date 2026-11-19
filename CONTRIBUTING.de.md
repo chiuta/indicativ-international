@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · [Română](CONTRIBUTING.ro.md) · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · **Deutsch** · [Magyar](CONTRIBUTING.hu.md)
 
-Version: 0.2.0 · Letzte Aktualisierung: 2026-11-17
+Version: 0.2.1 · Letzte Aktualisierung: 2026-11-20
 
 1. Forken Sie dieses Repository.
 2. Kopieren Sie `data/packs/example.json` nach `data/packs/<id-ihres-pakets>.json` (der Dateiname ist die Paket-ID) und füllen Sie sie aus, oder machen Sie aus einer Tabelle ein Paket mit `node scripts/import_csv.mjs` (siehe `docs/contributor-guide.md`).

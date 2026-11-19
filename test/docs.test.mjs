@@ -180,7 +180,7 @@ test('căile din README, CONTRIBUTING, ghiduri și șabloane există, iar legăt
 
 test('README, CONTRIBUTING, CHANGELOG și ISSUES_GOOD_FIRST au aceeași versiune și dată în toate cele opt limbi', () => {
   assert.equal(pkg.version, app.version);
-  assert.equal(pkg.version, '0.2.0');
+  assert.equal(pkg.version, '0.2.1');
   const WORD = { en: ['Version', 'Last updated'], ro: ['Versiune', 'Ultima actualizare'] };
   for (const l of LANGS) {
     for (const base of ['README', 'CONTRIBUTING']) {

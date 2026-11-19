@@ -2,8 +2,8 @@
   "schema": 1,
   "slug": "indicativ-international",
   "name": "INDICATIV International — Amateur-radio exam question banks for every country, in one shared format",
-  "version": "0.2.0",
-  "updated": "2026-11-17",
+  "version": "0.2.1",
+  "updated": "2026-11-20",
   "description": "Amateur-radio exam question banks for every country, in one shared format",
   "egress": [],
   "permissions": [
@@ -15,8 +15,8 @@
   "storageKeys": [
     "indicativ-international.packs"
   ],
-  "sizeBytes": 479274,
-  "sha256": "2d1ad19dd150c1b05c8251319e0cfd4678ee242ad6542f651b9c838c24cc19ca",
+  "sizeBytes": 482780,
+  "sha256": "2a7ba1b8d2da5900c9af6a6ab68cbd352f57f312b96beb32323e09092a0f52b6",
   "csp": {
     "present": true,
     "directives": {
@@ -58,7 +58,7 @@
     ]
   },
   "kit": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "modules": [
       "core",
       "store",

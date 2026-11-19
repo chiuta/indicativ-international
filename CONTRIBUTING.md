@@ -2,7 +2,7 @@
 
 **English** · [Română](CONTRIBUTING.ro.md) · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · [Deutsch](CONTRIBUTING.de.md) · [Magyar](CONTRIBUTING.hu.md)
 
-Version: 0.2.0 · Last updated: 2026-11-17
+Version: 0.2.1 · Last updated: 2026-11-20
 
 1. Fork this repository.
 2. Copy `data/packs/example.json` to `data/packs/<your-pack-id>.json` (the file name is the pack id) and fill it in, or turn a spreadsheet into a pack with `node scripts/import_csv.mjs` (see `docs/contributor-guide.md`).

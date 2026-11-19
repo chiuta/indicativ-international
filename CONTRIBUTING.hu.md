@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · [Română](CONTRIBUTING.ro.md) · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · [Deutsch](CONTRIBUTING.de.md) · **Magyar**
 
-Verzió: 0.2.0 · Utolsó frissítés: 2026-11-17
+Verzió: 0.2.1 · Utolsó frissítés: 2026-11-20
 
 1. Forkold ezt a tárolót.
 2. Másold a `data/packs/example.json` fájlt a `data/packs/<a-csomagod-azonosítója>.json` helyre (a fájlnév a csomag azonosítója), és töltsd ki, vagy készíts egy táblázatból csomagot a `node scripts/import_csv.mjs` paranccsal (lásd `docs/contributor-guide.md`).

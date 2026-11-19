@@ -1,6 +1,6 @@
 # Pack format · INDICATIV International
 
-Version: 0.2.0 · Last updated: 2026-11-17 · [Română](pack-format.ro.md)
+Version: 0.2.1 · Last updated: 2026-11-20 · [Română](pack-format.ro.md)
 
 A **pack** is one UTF-8 JSON file with the exam questions of one country and licence class (or a practice set). The page (tab “Packs” → “Import”), `scripts/validate.py` and `scripts/import_csv.mjs` apply the same rules; `schema.json` describes the shape. A file is accepted only if every rule below holds; the page and the validator name each problem and the place where it is.
 

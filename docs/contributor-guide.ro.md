@@ -1,6 +1,6 @@
 # Ghid pentru contribuitori · INDICATIV International
 
-Versiune: 0.2.0 · Ultima actualizare: 2026-11-17 · [English](contributor-guide.md)
+Versiune: 0.2.1 · Ultima actualizare: 2026-11-20 · [English](contributor-guide.md)
 
 Cea mai utilă contribuție este un **pachet**: întrebările din banca publică de întrebări a unei țări pentru autorizațiile de radioamator, în formatul comun (`docs/pack-format.ro.md`), cu sursa, ediția și regulile de examen notate și verificate față de banca oficială. Nu trebuie să programezi ca să adaugi unul.
 
